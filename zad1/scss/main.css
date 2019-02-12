@@ -1,0 +1,35 @@
+body {
+  background-color: #DADADA; }
+
+/* Color Themes - Variables */
+/* Common Colors - Variables */
+/* Button Global */
+.member-thumb-box {
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+  margin: 1.1rem;
+  padding: .1em .1em;
+  border: .094em solid;
+  border-radius: 2em;
+  color: #FFF;
+  font: normal 1.6rem sans-serif;
+  cursor: pointer; }
+
+/* Themes */
+.purple {
+  background: #9A68C7; }
+
+.blue {
+  background: #3BA9E4; }
+
+.green {
+  background: #75B343; }
+
+.orange {
+  background: #FF6A42; }
+
+.logo {
+  background-image: url("../img/logo.jpg"); }
+
+/*# sourceMappingURL=main.css.map */

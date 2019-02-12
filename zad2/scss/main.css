@@ -1,0 +1,91 @@
+body {
+  background-color: #fff; }
+
+hr {
+  clear: left;
+  color: transparent;
+  border-top: thin #80bdff solid; }
+
+/* Color Themes - Variables */
+/* Common Colors - Variables */
+/* Button Global */
+.member-details-box {
+  height: auto;
+  width: 300px;
+  background: #fff;
+  border: #80bdff .094em solid;
+  border-radius: .5em;
+  float: left; }
+
+.member-thumb-box {
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+  margin: 1.1rem;
+  padding: .1em .1em;
+  border: #80bdff .094em solid;
+  border-radius: 2em;
+  color: #FFF;
+  font: normal 1.6rem sans-serif;
+  float: left; }
+
+.member-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+  display: inline-block;
+  background: transparent;
+  border: none;
+  float: left;
+  cursor: pointer; }
+
+.footer-left {
+  width: 80%;
+  padding: 5px 0px 10px 10px;
+  float: left; }
+
+.footer-right {
+  padding: 5px 0px 10px 0px;
+  float: left; }
+
+.remove {
+  padding-top: 3px;
+  font: bold .7em sans-serif; }
+
+.name-box {
+  margin-top: 20px;
+  font: normal 1.3em sans-serif; }
+
+.surname {
+  float: left;
+  padding-right: 5px;
+  font: bold 1em sans-serif; }
+
+.profession-box {
+  margin-top: 4px;
+  color: #ccc;
+  font: bold .8rem sans-serif; }
+
+/* Themes */
+.purple {
+  background: #9A68C7; }
+
+.blue {
+  background: #3BA9E4; }
+
+.green {
+  background: #75B343; }
+
+.orange {
+  background: #FF6A42; }
+
+.delete {
+  background-image: url("../img/delete.png"); }
+
+.email {
+  background-image: url("../img/email.png"); }
+
+.print {
+  background-image: url("../img/print.png"); }
+
+/*# sourceMappingURL=main.css.map */

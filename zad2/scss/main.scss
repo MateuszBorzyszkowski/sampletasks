@@ -1,0 +1,142 @@
+
+body {
+  background-color: #fff;
+}
+
+hr {
+  clear: left;
+  color: transparent;
+  border-top: thin #80bdff solid;
+}
+
+/* Color Themes - Variables */
+
+$get-path-to-assets: url("../img");
+$purple: #9A68C7;
+$blue: #3BA9E4;
+$green: #75B343;
+$orange: #FF6A42;
+
+/* Common Colors - Variables */
+
+$off-wht: rgba(white,.4);
+
+//* Mixins */
+
+@mixin btn-theme($btn-color) {
+  background: $btn-color;
+}
+
+@mixin btn-delete($btn-image) {
+  background-image: url("../img/delete.png");
+}
+
+@mixin btn-email($btn-image) {
+  background-image: url("../img/email.png");
+}
+
+@mixin btn-print($btn-image) {
+  background-image: url("../img/print.png");
+}
+
+@mixin trans($val...) {
+  -webkit-transition: $val;
+  -moz-transition: $val;
+  -o-transition: $val;
+  transition: $val;
+}
+
+
+/* Button Global */
+.member-details-box {
+  height: auto;
+  width: 300px;
+  background: #fff;
+  border: #80bdff .094em solid;
+  border-radius: .5em;
+  float: left;
+}
+
+.member-thumb-box {
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+  margin: 1.1rem;
+  padding: .1em .1em;
+  border: #80bdff .094em solid;
+  border-radius: 2em;
+  color: #FFF;
+  font: normal 1.6rem sans-serif;
+  float: left;
+}
+
+.member-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+  display: inline-block;
+  background: transparent;
+  border: none;
+  float: left;
+  cursor: pointer;
+}
+
+.footer-left {
+  width: 80%;
+  padding: 5px 0px 10px 10px;
+  float: left;
+
+
+.footer-right {
+  padding: 5px 0px 10px 0px;
+  float: left;
+}
+
+.remove {
+  padding-top: 3px;
+  font: bold .7em sans-serif;
+}
+
+.name-box {
+  margin-top: 20px;
+  font: normal 1.3em sans-serif;
+}
+
+.surname {
+  float: left;
+  padding-right: 5px;
+  font: bold 1em sans-serif;
+}
+
+.profession-box {
+  margin-top: 4px;
+  color: #ccc;
+  font: bold .8rem sans-serif;
+}
+
+/* Themes */
+
+.purple {
+  @include btn-theme($purple);
+}
+.blue {
+  @include btn-theme($blue);
+}
+.green {
+  @include btn-theme($green);
+}
+.orange {
+  @include btn-theme($orange);
+}
+
+.delete {
+  @include btn-delete($get-path-to-assets);
+}
+.email {
+  @include btn-email($get-path-to-assets);
+}
+.print {
+  @include btn-print($get-path-to-assets);
+}
+
+

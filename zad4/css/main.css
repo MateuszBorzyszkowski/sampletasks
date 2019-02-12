@@ -1,0 +1,49 @@
+body {
+    background: #fff;
+}
+
+section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.font-weight-bold {
+    color: #ccc;
+}
+
+.btn-my {
+    border: dotted;
+    width: 220px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.btn-primary {
+    margin: 0 auto;
+    color: #000;
+}
+
+.added {
+    color: black;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.title {
+    color: #c6c8ca;
+    font: 12px bold;
+    text-transform: uppercase;
+    clear: left;
+    text-align: left;
+    margin-bottom: 10px;
+}

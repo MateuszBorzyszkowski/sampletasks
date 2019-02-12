@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>title</title>
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="css/bootstrap-css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+</head>
+<body>
+
+<main>
+
+    <section>
+
+        <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-4">
+                <button id="1" onclick="readIndex(1)" class="btn btn-my font-weight-bold" data-toggle="modal" data-target="#myModal">
+                    <p>+<br>Define new address</p>
+                </button>
+            </div>
+            <div class="col-sm-4">
+                <button id="2" onclick="readIndex(2)" class="btn btn-my font-weight-bold" data-toggle="modal" data-target="#myModal">
+                    <p>+<br>Define new address</p>
+                </button>
+            </div>
+            <div class="col-sm-4">
+                <button id="3" onclick="readIndex(3)" class="btn btn-my font-weight-bold" data-toggle="modal" data-target="#myModal">
+                    <p>+<br>Define new address</p>
+                </button>
+            </div>
+
+            <button onclick="location.reload()" class="btn btn-primary font-weight-bold">Clear</button>
+
+        </div>
+
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="col-sm-12 modal-content shadow p-3 mb-5 bg-white rounded">
+
+                        <button type="button" class="close text-right" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                        <div class="modal-body">
+
+                            <div class="form-group row">
+                                <label class="col-sm-4 text-right col-form-label">Type of card</label>
+                                <div class="col-sm-8">
+                                    <input id="typeofcard" type="text" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-4 text-right col-form-label">Card name</label>
+                                <div class="col-sm-8">
+                                    <input id="name" type="text" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-4 text-right col-form-label">Street</label>
+                                <div class="col-sm-8">
+                                    <input id="street" type="text" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-4 text-right col-form-label">Zip Code/City</label>
+                                <div class="col-sm-4">
+                                    <input id="code" type="text" class="form-control">
+                                </div>
+                                <div class="col-sm-4">
+                                    <input id="city" type="text" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-4 text-right col-form-label">Country</label>
+                                <div class="col-sm-8">
+                                    <select id="country" class="form-control">
+                                        <option>Poland</option>
+                                        <option>Germany</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-3 offset-9">
+                                <button type="button" onclick="readData()" class="btn btn-default" data-toggle="modal" data-target="#myModal">Add card</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="js/my.js"></script>
+
+</body>
+</html>
